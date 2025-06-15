@@ -1,23 +1,19 @@
-import { StyleSheet, Text, View } from "react-native";
+import { Image, ScrollView, StatusBar, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
+import logo from "../assets/images/dinetimelogo.png";
 import "../global.css";
 export default function Index() {
   return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Text  className="text-green-400">Edit app/index.tsx to edit this screen sfgsaf.</Text>
-    </View>
+    <SafeAreaView className={`bg-[#242424]`}>
+      <StatusBar barStyle={"light-content"} />
+      <ScrollView contentContainerStyle={{height : "100%"}}>
+        <View className="m-2 flex justify-center items-center">
+          <Image source={logo} style={{width : 300 , height : 300}} />
+
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }
 
 
-
-const styles = StyleSheet.create({
-  text : {
-    color : 'red'
-  }
-})

@@ -3,7 +3,7 @@ import { Text, View } from 'react-native'
 const history = () => {
   return (
     <View>
-      <Text>history</Text>
+      <Text>historysss</Text>
     </View>
   )
 }

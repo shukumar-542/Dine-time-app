@@ -1,10 +1,10 @@
 import {
-    Image,
-    Pressable,
-    ScrollView,
-    StatusBar,
-    Text,
-    View,
+  Image,
+  Pressable,
+  ScrollView,
+  StatusBar,
+  Text,
+  View,
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import logo from "../../assets/images/dinetimelogo.png";
